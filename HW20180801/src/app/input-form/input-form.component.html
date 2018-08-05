@@ -1,0 +1,11 @@
+<app-input-form (newItem)="addItem($event)"></app-input-form>
+<!--<app-item-form (newItem)="addItem($event)"></app-item-form>-->
+<hr>
+<ul class="list-group">
+  <app-item-row class="list-group-item"
+                *ngFor="let item of items; let i = index"
+                [itemInput]="item"
+                [indx]="(i+1) + '/' + items.length">
+
+  </app-item-row>
+</ul>
