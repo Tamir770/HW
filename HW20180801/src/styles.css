@@ -2,3 +2,12 @@
 body{
   margin-top: 50px;
 }
+input{
+  margin-bottom: 15px;
+}
+
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
